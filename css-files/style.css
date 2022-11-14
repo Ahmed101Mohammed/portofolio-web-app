@@ -1,3 +1,7 @@
+div.container
+{
+    padding: 20px;
+}
 /* Personal photo part */
 .personal-image
 {
@@ -43,4 +47,15 @@
 {
     color: rebeccapurple;
     cursor: pointer;
+}
+
+/* style for form */
+form button
+{
+    border: none;
+    border-radius: 14px;
+    background-color: royalblue;
+    color: antiquewhite;
+    font-size: 16px;
+    padding: 5px;
 }
