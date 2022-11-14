@@ -1,11 +1,21 @@
-body
-{
-    display: flex;
-    justify-content: center;
-}
-
-
 .personal-image
 {
     border-radius: 50%;
+}
+
+.social-media ul
+{
+    list-style: none;
+    padding: unset;
+}
+
+.social-media ul li
+{
+    display: inline-flex;
+    height: 100px;
+    width: 100px;
+    background-color: #ece5de;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
 }
