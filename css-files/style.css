@@ -1,8 +1,10 @@
+/* Personal photo part */
 .personal-image
 {
     border-radius: 50%;
 }
 
+/* social media part */
 .social-media ul
 {
     list-style: none;
@@ -18,4 +20,27 @@
     border-radius: 50%;
     justify-content: center;
     align-items: center;
+}
+
+/* My skills part */
+.my-skills h2
+{
+    background-color: #dbccc9;
+    width: fit-content;
+    padding: 10px;
+}
+
+.my-skills ol
+{
+    list-style-position: inside;
+    padding: unset;
+    font-family: monospace;
+    font-size: 16px;
+    line-height: 29px;
+}
+
+.my-skills ol li:hover
+{
+    color: rebeccapurple;
+    cursor: pointer;
 }
